@@ -178,7 +178,7 @@ function Order() {
                     }}>
                         <h3 className="text-xl font-bold mb-2">Burgers</h3>
                         {burgers.map((item) => (
-                            <div key={item.id} className="flex items-center justify-between mb-4">
+                            <div key={item.id} className="flex items-center justify-between mb-4 flex-wrap">
                                 <div className="flex items-center">
                                     <input
                                         type="checkbox"
@@ -216,7 +216,7 @@ function Order() {
 
                         <h3 className="text-xl font-bold mb-2">Pizza</h3>
                         {pizza.map((item) => (
-                            <div key={item.id} className="flex items-center justify-between mb-4">
+                            <div key={item.id} className="flex items-center justify-between mb-4 flex-wrap">
                                 <div className="flex items-center">
                                     <input
                                         type="checkbox"
@@ -253,7 +253,7 @@ function Order() {
 
                         <h3 className="text-xl font-bold mb-2">Sides</h3>
                         {sides.map((item) => (
-                            <div key={item.id} className="flex items-center justify-between mb-4">
+                            <div key={item.id} className="flex items-center justify-between mb-4 flex-wrap">
                                 <div className="flex items-center">
                                     <input
                                         type="checkbox"
